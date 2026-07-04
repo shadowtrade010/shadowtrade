@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الأكاديمية — ShadowTrade Academy</title>
+<meta name="description" content="محاضرات ShadowTrade الأكاديمية كاملة داخل الموقع، مرتبة من التمهيدية للمحاضرة التاسعة.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">ST</span>
+      <span class="brand-name">Shadow<strong>Trade</strong></span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">الرئيسية</a>
+      <a href="academy.html" class="active">الأكاديمية</a>
+      <a href="articles.html">المقالات</a>
+      <a href="analysis.html">التحليلات</a>
+      <a href="psychology.html">علم النفس</a>
+      <a href="tools.html">الأدوات</a>
+      <a href="traders.html">كبار المتداولين</a>
+      <a href="contact.html">تواصل</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== Academy header ===== -->
+<section class="academy-head">
+  <div class="wrap">
+    <p class="eyebrow">SHADOWTRADE ACADEMY</p>
+    <h1>محاضرات الأكاديمية</h1>
+    <p class="hero-sub">شاهد المحاضرات بالترتيب من داخل الموقع مباشرة. باقي المحاضرات تُضاف تدريجيًا خلال الأسابيع القادمة.</p>
+
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <span class="progress-text" id="progressText">0 من 11 مكتملة</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Academy body ===== -->
+<section class="academy-body">
+  <div class="wrap academy-grid">
+
+    <!-- Player -->
+    <div class="player-col">
+      <div class="player-frame">
+        <iframe id="lecturePlayer"
+          src=""
+          title="مشغل محاضرات ShadowTrade"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+      <div class="player-info">
+        <h2 id="currentTitle">المحاضرة التمهيدية</h2>
+        <button class="btn btn-ghost btn-small" id="markWatched">وضع علامة "تمت المشاهدة"</button>
+      </div>
+    </div>
+
+    <!-- Lecture list -->
+    <aside class="lecture-list" id="lectureList"></aside>
+
+  </div>
+</section>
+
+<!-- ===== Coming soon note ===== -->
+<section class="section section-alt">
+  <div class="wrap">
+    <p class="section-label">قريبًا</p>
+    <h2 class="section-title">محاضرات جديدة تُضاف خلال أسبوعين</h2>
+    <p class="hero-sub">هذه أول 9 محاضرات، وسيتم إضافة الباقي بشكل مستمر — سجل الرابط في المفضلة وتابع من هنا.</p>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">ST</span>
+      <span class="brand-name">Shadow<strong>Trade</strong></span>
+      <p>أكاديمية عربية لتعلم التداول بجدية ومسؤولية.</p>
+    </div>
+    <div class="footer-col">
+      <h5>الموقع</h5>
+      <a href="academy.html">الأكاديمية</a>
+      <a href="articles.html">المقالات</a>
+      <a href="analysis.html">التحليلات</a>
+      <a href="psychology.html">علم النفس</a>
+    </div>
+    <div class="footer-col">
+      <h5>تواصل</h5>
+      <a href="#">واتساب</a>
+      <a href="#">تيليجرام</a>
+      <a href="contact.html">نموذج تواصل</a>
+    </div>
+  </div>
+  <p class="footer-bottom">© 2026 ShadowTrade. جميع الحقوق محفوظة.</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="academy.js"></script>
+</body>
+</html>
